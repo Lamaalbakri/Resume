@@ -27,9 +27,11 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: 992px;
   height: auto;
   display: flex;
+  position: relative;
+  justify-content: center;
   margin: 50px auto;
 }
 
