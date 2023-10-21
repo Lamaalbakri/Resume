@@ -45,7 +45,7 @@ body {
 }
 
 .resume .title {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .resume .resume_left .bold {
@@ -223,4 +223,16 @@ body {
 
 .resume .resume_right .interests ul li:last-child:before {
   display: none;
+}
+
+@media screen and (max-width: 576px){
+  body {
+    background: #ffffff;
+  }
+  .resume .resume_left {
+    background: #7d5b8e;
+  }
+  .resume .resume_right {
+    background: #dddddd;
+  }
 }
